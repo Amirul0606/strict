@@ -1,0 +1,498 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: font-family: 'Lato',;
+	font-size: 14px;
+	line-height: 24px;
+	margin: 0 auto;
+}
+
+
+a,a:hover{
+	text-decoration: none;
+}
+.container{
+ 	width: 1140px;
+ 	margin: 0px auto;
+ }
+ .row{
+ 	width: 100%;
+ 	float: left;
+ }
+ .col-md-12{
+ 	width: 100%;
+ 	float: left;
+ }
+ .col-md-4{
+ 	width: 33.33%;
+ 	float: left;
+ }
+
+.header-section{
+	width: 100%;
+	float: left;
+	background: #f6f9f9;
+	display:inline-block;
+
+}
+.logo{
+	/* width: 100%; */
+	/* float: left; */
+	padding: 20px 0px;
+	/* display: inline-block; */
+	/* position: relative; */
+}
+
+.banner-section{
+	width: 100%;
+	padding: 80px 0px;
+	float: left;
+	background: url(images/banner.png) center top no-repeat;
+	background-size: cover;
+	text-align: center;
+	
+}
+.banner-inner{
+	width: 100%;
+	float: left;
+	padding: 220px 0px;
+
+}
+.banner-inner h1{
+   font-size: 85px;
+   line-height: 100px;
+   margin-bottom: 15px;
+   color:#FFF;
+   font-weight: 700;
+}
+.banner-inner .divider{
+	width: 48%;
+	margin: 0px auto 20px;
+	height: 2px;
+	background: #15a4fa;
+
+}
+.banner-inner p{
+   font-size: 16px;
+   line-height: 26px;
+   font-weight: 400px;
+   color: #FFF;
+   margin-bottom:60px;
+}
+.banner-inner .btn{
+   padding: 12px 35px;
+   border: 1px solid#15a4fa;
+   background:transparent;
+   color:#FFF;
+   font-size: 18px;
+   font-weight: 500;
+
+}
+.banner-inner .btn:hover{
+	border: 1px solid#15a4fa;
+    background:#15a4fa;
+    color:#FFF;
+    transition: 1s;
+}
+
+}
+
+.typo-section{
+	width: 100%;
+	float: left;
+	padding: 80px 0px;
+	background: #f6f9f9;
+	text-align: center;
+}
+.typo-section h1{
+   font-size:45px;
+   line-height:55px;
+   margin-bottom: 15px;
+   color:#2d3950;
+   font-weight: 400;
+ }
+.typo-section p{
+   font-size: 14px;
+   line-height: 24px;
+   font-weight:400px;
+   color: #999999;
+   margin-bottom:60px;
+}
+
+.featured-section{
+   width: 100%;
+   float: left;
+   padding: 80px 0px;
+   text-align: center;
+}
+.featured-inner{
+	width: 100%;
+	float: left;
+	padding: 10px 0px;
+	text-align: center;
+}
+.featured-inner img{
+	margin-bottom: 20px;
+}
+.featured-inner h4{
+   font-size:18px;
+   line-height:30px;
+   margin-bottom: 15px;
+   color:#2d3950;
+   font-weight: 700;
+}
+.featured-inner p{
+   font-size:14px;
+   line-height:24px;
+   margin-bottom: 15px;
+   color:#999999;
+   font-weight: 400;
+}
+/***********************************************
+******************NAVBAR CSS START**************
+***********************************************/
+
+.nav-bar {
+
+	display: inline-block;
+	float: right;
+}  
+.nav-bar li{
+	list-style: none;
+	margin-right: 20px;
+
+}
+
+.nav-bar ul li a{
+	font-size: 18px;
+	margin-left: 35px;
+	color: #9fb891;
+	display: inline-block;
+	margin-right: 0px;
+	padding-bottom: 0 auto;
+	font-family: sans-serif;
+}
+
+.nav-bar ul li{
+	display: inline-block;
+	padding-top: 26px;
+	list-style: none;
+	display: inline-block;
+	margin-right: 20px;
+
+	
+} 
+.nav-bar ul li:last-child{
+	margin-right: 0px;
+}	
+
+.nav-bar ul li a:hover{
+	background-color: #787878;
+	transition: 1s;
+}
+/***********************************************
+******************NAVBAR CSS END**************
+***********************************************/
+
+
+/**********************************
+	**portfolio section code ***
+***********************************/
+.portfolio{
+	width: 100%;
+	float: left;
+	padding: 80px 0px;
+	background: #f6f9f9;
+	position: relative;
+}
+.portfolio-inner{
+	width: 100%;
+	position: relative;
+}
+
+.portfolio-inner .port-inner {
+    width: 95%;
+    height: 98%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgb(21,164,250, .6 );
+    text-align: center;
+    display: none;
+    transition: 1s;
+
+}
+.portfolio-inner:hover .port-inner{
+	display: block;
+	transition: 1s;
+}
+.port-inner ul{
+	position: absolute;
+	top: 40%;
+	left:35%;
+}
+.port-inner ul li{
+	list-style: none;
+	display: inline-block;
+}
+.port-inner ul li a{
+	margin:0px 5px; 
+}
+.port-inner ul li a i{
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	border-radius: 5px;
+	border: 1px solid #fff;
+	color: #fff;
+	font-size: 22px;
+}
+.mar{
+	margin-top: 15px;
+}
+
+
+.contact-area{
+	width: 100%;
+	float: left;
+	padding: 80px 0px;
+	background: url(../images/cb.png) center top no-repeat;
+	background-size: cover;
+}
+
+.contact-area h1 {
+    font-size: 45px;
+    line-height: 55px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #fff;
+}
+.contact-area p{
+	font-size: 14px;
+    line-height: 24px;
+    color: #a7a8a8;
+    font-weight: normal;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.contact-inner{
+	color: #fff;
+}
+.form-group{
+	width: 100%;
+}
+.form-control{
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 15px;
+	background: transparent;
+	border: 1px solid #999;
+	border-radius: 3px;
+}
+.text-right{
+	text-align: right;
+}
+.contact-inner .btn{
+	padding: 10px 25px;
+	background: transparent;
+	color: #fff;
+	border:1px solid #fff;
+	border-radius: 5px;
+	font-size: 16px;
+}
+
+.footer-section{
+	width: 100%;
+	float: left;
+	background: #f6f9f9;
+	padding: 15px 0px;
+}
+.footer-section p {
+    font-size: 12px;
+    color: #999;
+    margin-top: 15px;
+}
+.social-icons{
+	width: 100%;
+	text-align: right;
+}
+
+.social-icons ul li{
+	list-style: none;
+	display: inline-block;
+}
+.social-icons ul li a{
+	text-align: center;
+
+}
+.social-icons ul li a i{
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	border-radius: 0px;
+	background: #15A4FA;
+	border: 1px solid #15A4FA;
+	color: #fff;
+	font-size: 22px;
+}
+.social-icons ul li a i:hover{
+	background: transparent;
+	border: 1px solid #15A4FA;
+	color: #15A4FA;
+}
+
+.typo-section2{
+	width: 100%;
+	float: left;
+	padding: 70px 0px;
+	background: #f6f9f9;
+	text-align: center;
+}
+.typo-section2 h1{
+   font-size:45px;
+   line-height:55px;
+   margin-bottom: 15px;
+   color:#2d3950;
+   font-weight: 400;
+ }
+.typo-section2 p{
+   font-size: 14px;
+   line-height: 24px;
+   font-weight:400px;
+   color: #999999;
+   margin-bottom:60px;
+}
+
+.contact-area{
+	width: 100%;
+	float: left;
+	padding: 80px 0px;
+	background-image: url("images/back.png");
+	background-size: cover;
+}
+
+.contact-area h1 {
+    font-size: 45px;
+    line-height: 55px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #fff;
+}
+.contact-area p{
+	font-size: 14px;
+    line-height: 24px;
+    color: #a7a8a8;
+    font-weight: normal;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.contact-inner{
+	color: #fff;
+}
+.form-group{
+	width: 100%;
+}
+.form-control{
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 15px;
+	background: transparent;
+	border: 1px solid #999;
+	border-radius: 3px;
+}
+.text-right{
+	text-align: right;
+	width: 77%;
+
+}
+.contact-inner .btn{
+	background: transparent;
+	color: #fff;
+	border:1px solid #15a4fa;
+	border-radius: 5px;
+	font-size: 16px;
+	text-align: center;
+}
+.contact-inner .btn:hover{
+	background: #15a4fa;
+}
+
+
+.footer-section{
+	width: 100%;
+	float: left;
+	background: #f6f9f9;
+	padding: 15px 0px;
+}
+.footer-section p {
+    font-size: 12px;
+    color: #999;
+    margin-top: 15px;
+}
+.social-icons{
+	width: 100%;
+	text-align: right;
+}
+
+.social-icons ul li{
+	list-style: none;
+	display: inline-block;
+}
+.social-icons ul li a{
+	text-align: center;
+
+}
+.social-icons ul li a i{
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	border-radius: 0px;
+	background: #15A4FA;
+	border: 1px solid #15A4FA;
+	color: #fff;
+	font-size: 22px;
+}
+.social-icons ul li a i:hover{
+	background: transparent;
+	border: 1px solid #15A4FA;
+	color: #15A4FA;
+}
+.form-group{
+	text-align: center;
+    width: 50%;
+    padding-left: 25%;
+}
+
+.checkbox{
+	width: 20%;
+	padding-left: 300px;
+	float: left;
+	
+}
+
+.footer-section{
+	display: inline-block;
+
+}
+.social-icons{
+	display: inline-block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+..social-icons:last-child{
+	margin-left: 100px;
+}
+.pp{
+	display: inline-block;
+	float: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 150px;
+}
+.social-icons2 {
+    padding-right: 124px;
+}
